@@ -4,7 +4,7 @@ import { NgIf } from '@angular/common';
 type BtnVariants = "primary" | "secondary";
 
 @Component({
-  selector: 'app-btn-primary',
+  selector: 'btn-primary',
   imports: [NgIf],
   templateUrl: './btn-primary.component.html',
   styleUrl: './btn-primary.component.scss'

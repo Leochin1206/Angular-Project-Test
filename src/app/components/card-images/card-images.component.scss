@@ -1,0 +1,26 @@
+@import "../../../color-variables.scss";
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: "Roboto", sans-serif;
+
+    .text-img {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: $primary-text;
+            font-size: 30px;
+            margin: 14px 0;
+        }
+
+        p {
+            
+            width: 500px;
+            color: $secondary-text;
+        }
+    }
+}
